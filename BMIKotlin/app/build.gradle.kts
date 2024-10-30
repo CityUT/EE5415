@@ -19,7 +19,9 @@ android {
             useSupportLibrary = true
         }
     }
-
+    buildTypes.getByName("debug") {
+        isPseudoLocalesEnabled = true
+    }
     buildTypes {
         release {
             isMinifyEnabled = false

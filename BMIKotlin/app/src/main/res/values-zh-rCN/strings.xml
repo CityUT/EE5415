@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="bmi_height">身高 (cm)</string>
+    <string name="bmi_weight">体重 (kg)</string>
+    <string name="bmi_btn">看你的BMI报告</string>
+    <string name="bmi_result">你的BMI指数是</string>
+    <string name="bmi_warning">身高/体重不能为空！</string>
+    <string name="advice_light">你需要更多卡路里！ </string>
+    <string name="advice_average">你的BMI非常好！</string>
+    <string name="advice_heavy">该减重啦！</string>
+    <string name="menu_settings">设置</string>
+    <string name="about_btn">关于BMI</string>
+    <string name="about_msg">BMI=Mass Body Index = 身高 (m)/体重 (kg)^2. BMI 在 20 和 25 表示体重理想。</string>
+    <string name="menu_wiki">BMI 百科</string>
+    <string name="exit">退出</string>
+</resources>

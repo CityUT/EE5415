@@ -9,6 +9,8 @@
     <string name="advice_average">You look great!</string>
     <string name="advice_heavy">You should be on diet!</string>
     <string name="menu_settings">Settings</string>
+    <string name="menu_wiki">BMI Wiki</string>
+    <string name="exit">Exit</string>
     <string name="about_btn">About BMI</string>
     <string name="about_msg">BMI=Mass Body Index = Height (m)/Weight (kg)^2. BMI between 20 and 25 is fit.</string>
 </resources>

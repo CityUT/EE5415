@@ -25,7 +25,8 @@ class ReportActivity : ComponentActivity() {
         val weight=java.lang.Double.parseDouble(bundle.getString("weight")!!)
         val bmi=weight/(height*height)
         val nf=DecimalFormat("0.00")
-        resultTV.text="Your BMI value is"+" "+nf.format(bmi)
+        val bmiString=getString(R.string.bmi_result)+" "+nf.format(bmi)
+        resultTV.setText(bmiString)
         if(bmi>25){
             resultImage.setImageResource(R.drawable.bot_fat)
             adviceTV.setText(R.string.advice_heavy)

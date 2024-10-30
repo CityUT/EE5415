@@ -13,11 +13,12 @@
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/icon_128"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +90,29 @@
         android:layout_marginTop="8dp"
         android:text="@string/about_btn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reportBtn" />/>
+        app:layout_constraintTop_toBottomOf="@+id/reportBtn" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1dp"
+        android:minHeight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/purple_700"
+
+        android:theme="@style/Theme.BMI"
+        app:titleTextColor="@color/white"
+        app:titleMarginStart="@dimen/horizontal_margin"
+        app:titleMarginBottom="5dp"
+        app:titleMarginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="BMI" />
 
 
 
