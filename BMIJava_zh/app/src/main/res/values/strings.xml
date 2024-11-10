@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="bmi_height">Height (cm)</string>
+    <string name="bmi_weight">Weight (kg)</string>
+    <string name="bmi_btn">See BMI Report Now</string>
+    <string name="bmi_result">Your BMI value is</string>
+    <string name="bmi_warning">Height/Weight cannot be empty.</string> <!-- 修正拼写错误 -->
+    <string name="advice_light">You need more calories!</string>
+    <string name="advice_average">You look great!</string>
+    <string name="advice_heavy">You should be on diet!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="about_button">About BMI</string>
+    <string name="about_msg">BMI = Body Mass Index = Weight (kg) / (Height (m)^2); BMI between 20 and 25 is fit.</string> <!-- 修正公式 -->
+</resources>
